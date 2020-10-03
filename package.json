@@ -1,0 +1,21 @@
+{
+  "name": "nodejstask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/arm-resources": "^2.1.0",
+    "@azure/ms-rest-nodeauth": "^3.0.3",
+    "@types/node": "^14.0.4",
+    "dotenv": "^8.2.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3",
+    "util": "^0.12.3"
+  }
+}
