@@ -22,7 +22,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'Lucas-demo'
+    azureSubscription: 'SlotsExperiment'
     scriptType: 'pscore'
     scriptLocation: 'inlineScript'
     inlineScript: 'npm start'
